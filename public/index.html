@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <style>
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="lib/js/jquery-1.7.2.js"></script>
+
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-grid.min.css">
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body style="overflow:hidden">
+
+        
+        <div id="header" class="row justify-content-md-center navbar navbar-default navbar-fixed-top">
+
+            <div id="draggable" style="height:100px; width:px; background:green"; ></div>
+                
+            <button class="col-2 btn btn-outline-primary m-2 font-weight-bold" id="create">Create</button>
+        
+            <div class="col-6 input-group m-2 row">
+                <input id="url" type="text" class="form-control" placeholder="IP ADDRESS : PORT" >
+                <div class="input-group-append">
+                    <button class="btn btn-outline-info font-weight-bold" type="button" id="connect">Connect</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="clipboard_container" class="mt-5 ml-5 mr-5 p-3 mb-2 bg-dark text-white rounded d-flex justify-content-center">
+            <p id="content" class="mb-0 font-weight-bold">This is some copied text</p>    
+        </div>
+            
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

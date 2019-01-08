@@ -1,0 +1,14 @@
+.navbar-default {
+    background-color: #f5f5f5;
+    border-color: #e7e7e7;    
+    border-width: 0 0 1px;
+}
+
+.btn {
+    background-color: #fff;
+}
+
+.body {
+    overflow: hidden;
+    width: 100%;
+}
